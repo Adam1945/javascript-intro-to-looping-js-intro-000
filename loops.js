@@ -4,11 +4,8 @@ function forLoop(array) {
     if(i === 1) {
       array.push('I am '+ i +' strange loop.')
     }
-    elseif(i === 0) {
-      array.push();
-    }
     else {
-      array.push('I am ' + i +' stranges loop.')
+      array.push('I am ' + i +' strange loops.')
     }
     return array;
   }
