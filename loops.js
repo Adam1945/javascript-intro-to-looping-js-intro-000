@@ -5,10 +5,10 @@ function forLoop(array) {
       return array;
     }
     elseif(i == 1) {
-      array.push(`I am ${i} strange loop.`);
+      array.push('I am ${i} strange loop.');
     }
     else {
-      array.push(`I am ${i} strange loops.`);
+      array.push('I am ${i} strange loops.');
     }
   }
   return array;
